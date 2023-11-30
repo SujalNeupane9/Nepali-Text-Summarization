@@ -15,9 +15,9 @@ Inside the 'Nepali_Summarizer' folder,
 First, clone the repository:
 
 ```bash
-git clone https://github.com/SujalNeupane9/Nepali-Text-Summarization.git
-cd Nepali-Text-Summarization
+!git clone https://github.com/SujalNeupane9/Nepali-Text-Summarization.git
 ```
+
 Navigate to the folder as:
 ```bash
 %cd Nepali-Text-Summarization
