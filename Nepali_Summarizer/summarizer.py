@@ -1,4 +1,4 @@
-
+import nltk
 import numpy as np
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
@@ -104,8 +104,8 @@ class Nepali_summarizer:
     return average_score
 
   def generate_summary(self,sentences):
-    tfidf_matrix = self.create_tfidf_matrix(text)
-    sentence_scores = self.calculate_sentence_scores(create_tfidf_matrix(text))
+    tfidf_matrix = self.create_tfidf_matrix(sentences)
+    sentence_scores = self.calculate_sentence_scores(create_tfidf_matrix(sentences))
     average_score = self.calculate_average_score(sentence_scores)
 
     threshold = average_score
